@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	background-color: #FFFFFF;
+	color: #1A202B;
+}
+
+.todo {
+	padding: 20px;
+	margin: 10px;
+	background-color: #CCD5E0;
+	border-radius: 1rem;
+}
+
+button, input[type=submit] {
+	padding: 0.5rem;
+	background-color: #1A202B;
+	border-radius: 0.5rem;
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+}
+
+input[type=text] {
+	padding: 0.5rem;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+}
+
+.Important {
+	color: #C75136;
+}
+
+.Unimportant {
+    color: #3B777A;
+}
+
+.Normal {
+    color: #3B557A;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
